@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="3" time="31.433">
+    <testcase classname="Login user correct" name="TC02_a_Login_User_With_Correct_email_and_password" time="14.323">
+        <system-out>
+            <![CDATA[When kullanici tarayiciyi baslatir..........................................passed
+Then kullanici anasayfaya gider.............................................passed
+Then ana sayfanin gorunur oldugunu test eder................................passed
+Then kullanici signup-login butonuna tiklar.................................passed
+Then kullanicinin Login to your account yazisinin gorunur oldugunu test eder.passed
+Then kullanici dogru email ve sifreyi girer.................................passed
+Then kullanici login butonuna tiklar........................................passed
+Then kullanici oturum actigini test eder(Logged in as username).............passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Products page feature" name="TC08_verify all products product detail page" time="9.778">
+        <system-out>
+            <![CDATA[When kullanici tarayiciyi baslatir..........................................passed
+Then kullanici anasayfaya gider.............................................passed
+Then ana sayfanin gorunur oldugunu test eder................................passed
+Then kullanici Products butonuna tiklar.....................................passed
+Then kullanici ALL PRODUCTS sayfasina basariyla yonlendirildigini test eder.passed
+Then kullanici urun listesini gorur.........................................passed
+Then kullanici ilk urunde View Product a tiklar.............................passed
+Then kullanici, urun detay sayfasina yonlendirilir..........................passed
+Then kullanici ayrintilarin(urun adi, kategori, fiyat, bulunabilirlik, durum, marka) gorunur oldugunu test eder.passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="TC25_Verify Scroll Up using Arrow Button Scroll Down" name="TC25_Verify Scroll using Up Arrow Button Scroll Down" time="7.046">
+        <system-out>
+            <![CDATA[When kullanici tarayiciyi baslatir..........................................passed
+Then kullanici anasayfaya gider.............................................passed
+Then kullanici sayfada footer a erismek icin scroll down yapar..............passed
+And subscription(abonelik) textinin gorunur oldugunu test eder..............passed
+And kullanici yukari hareket etmek icin sag alttaki oka tiklar..............passed
+And kullanici sayfanin yukari kaydirildigini ve -practice website- text ekranda goruldugunu test eder.passed
+]]>
+        </system-out>
+    </testcase>
+</testsuite>
