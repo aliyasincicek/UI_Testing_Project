@@ -31,7 +31,7 @@ public class ContactUsFormStepDefs {
         Driver.waitAndSendText(contactUsFormPage.nameText,Faker.instance().name().firstName() );
         Driver.waitAndSendText(contactUsFormPage.emailBox,Faker.instance().internet().emailAddress());
         Driver.waitAndSendText(contactUsFormPage.subjectBox, "selamlar Batch44");
-        Driver.waitAndSendText(contactUsFormPage.messageBox, "iyi ki bu projeyi sizlerle baslattim :)");
+        Driver.waitAndSendText(contactUsFormPage.messageBox, "iyi ki bu projeyi baslattim :)");
 
     }
 
