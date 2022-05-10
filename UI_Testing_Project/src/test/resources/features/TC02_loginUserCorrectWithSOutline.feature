@@ -14,4 +14,4 @@ Feature: Login user correct with Scenario Outline
 
     Examples:
       |email_address  |password|
-      |practicebatch44@gmail.com|123456|
+      |mariogomez@gmail.com|123456|

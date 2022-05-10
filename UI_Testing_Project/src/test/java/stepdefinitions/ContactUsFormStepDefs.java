@@ -25,7 +25,7 @@ public class ContactUsFormStepDefs {
     //    contactUsFormPage.nameText.sendKeys(Faker.instance().name().firstName());
     //    contactUsFormPage.emailBox.sendKeys(Faker.instance().internet().emailAddress());
     //    contactUsFormPage.subjectBox.sendKeys("selamlar Batch44");
-    //    contactUsFormPage.messageBox.sendKeys("iyi ki bu projeyi sizlerle baslattim, ama sizsiz bitirdim :)");
+    //    contactUsFormPage.messageBox.sendKeys("iyi ki bu projeyi  baslattim, :)");
 
         // yukardaki 4 satiri farkli sekilde yazabiliriz
 
